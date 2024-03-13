@@ -1098,3 +1098,59 @@ footer .row .col .menu li {
     font-size: 20px;
     margin-top: 20px;
 }
+
+/* -------------------------- contact -------------------------- */
+
+.contact-body .get-in-touch {
+    background-image: url("images/contact-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-body .get-in-touch h1 {
+    font-size: 60px;
+    color: var(--dark-brown);
+}
+
+.contact-body .contact {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px; 
+}
+
+.contact-body .contact form {
+    width: 500px;
+}
+
+.contact-body .contact form input,
+.contact-body .contact form textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.contact-body .contact form input:last-child{
+    cursor: pointer;
+}
+
+.contact-body .contact form input::placeholder, 
+.contact-body .contact form textarea::placeholder {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.contact-body .contact form input:focus-visible, 
+.contact-body .contact form textarea:focus-visible {
+    border: none !important;
+}
